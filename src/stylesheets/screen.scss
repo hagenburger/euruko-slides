@@ -1,0 +1,20 @@
+$grey: #7f7f7f;
+$yellow: #e1bf65;
+$text-color: #333333;
+$background-color: #dbe0df;
+$border-color: #666666;
+
+$slide-width: 1920px;
+$slide-height: 1080px;
+
+@import "compass";
+
+@import "global/typography";
+@import "global/pre";
+@import "global/links";
+
+@import "layouts/default";
+
+@import "partials/slides";
+@import "partials/presentation-counter";
+@import "partials/figures";

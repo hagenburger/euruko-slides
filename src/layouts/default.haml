@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %meta(charset="UTF-8")
+    %meta(name="description" content=@description)
+    %title= @title
+    %link(rel="stylesheet" href="stylesheets/screen.css")
+    %script(src="javascripts/jquery-1.4.2.min.js")
+  %body
+    .presentation
+      #presentation-counter
+    .slides
+      = yield
+    %script(src="javascripts/slideshow.js")
+    %script(src="javascripts/hagenburger.js")
+      
