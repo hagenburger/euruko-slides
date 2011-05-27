@@ -1,2 +1,4 @@
 source :rubygems
-gem 'staticmatic', '0.11.0.alpha.10'
+group :development do
+  gem 'staticmatic', '0.11.0.alpha.10'
+end
